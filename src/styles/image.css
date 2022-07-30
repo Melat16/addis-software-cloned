@@ -1,0 +1,32 @@
+.all{
+    background-color: #F5F5F5;
+}
+
+.tag {
+	text-align: center;
+    color: rgb(105,105,105);
+}
+.tag h1{
+    margin-bottom: 6%;
+}
+
+.imgslider .image1{
+    width:640px;
+    height:480px;
+}
+
+.imgslider .image1 .right{
+    float: right;
+    width: 50%;
+    height:50%;
+    margin-top: 10%;
+    
+}
+.imgslider .image1 .left{
+    float: left;
+    width: 50%;
+    color:rgb(105,105,105) ;
+    height:50%;
+    justify-content: center;
+    
+}

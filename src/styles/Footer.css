@@ -1,0 +1,54 @@
+.footer {
+    width: 100%;
+    height: 410px;
+    background-color: rgba(251, 150, 56, 0.984);
+    padding-top: 10px;
+  }
+  
+  .socialMedia svg {
+    color: white;
+    margin-top: 19%;
+    font-size: 40px;
+    cursor: pointer;
+  }
+ 
+  .footer p {
+    color: white;
+  }
+  .leftContent{
+    margin-top: 8%;
+    color: white;
+    float: left;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .leftContent h2{
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    font-size: 36px;
+
+  }
+  .rightContent{
+    color: white;
+    float: right;
+    margin-left: 10%;
+    margin-top: 8%;
+    margin-right: 10%;
+  }
+  .copyRight{
+    margin-left: 40%;
+  }
+  .button{
+    color:white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    justify-content: center;
+    background-color:white;
+    height: 40px;
+    width: 150px;
+    color:grey;
+    text-decoration: none;
+    font-size: 12px;
+  }

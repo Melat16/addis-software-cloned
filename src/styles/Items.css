@@ -1,0 +1,107 @@
+.container{
+    margin: 0;
+    padding: 0;
+    box-sizing: boredr-box;
+    display:flex;
+    font-size: 17px;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    word-spacing: 1.8px;
+    line-height: 22px;
+    flex-wrap: wrap;
+    padding: 40px 0;
+}
+
+.container .card{
+    position: relative;
+    width: 320px;
+    height: 440px;
+    box-shadow: inset 5px 5px 5px rgba(0,0,0,0.05),
+                inset -3px -3px 3px #FDA766,
+                5px 5px 5px rgba(0,0,0,0.05),
+                -3px -3px 3px #FDA766;
+    border-radius: 15px;
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 3%;          
+
+}
+.container .card .box{
+    position:absolute;
+    top:20px;
+    left: 20px;
+    right:20px;
+    bottom:20px;
+    background:#F5F5F5;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .card:hover .box{
+    transform:translateY(-50px);
+    box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+    background: linear-gradient(45deg,#FDB777 ,#FF6200);
+
+}
+.container .card .box .content{
+    padding: 20px;
+    text-align:center;
+}
+
+.container .card .box .content .h2{
+    position: absolute;
+    top: -10px;
+    right:30px;
+    font-size: 8em;
+    color: rgb(255,123,0);
+    transition: 0.5s;
+}
+
+.container .card:hover .box .content h2{
+    color:white;
+}
+
+.container .card:hover .box .content h3{
+    font-size: 1.1em;
+    color: #777;
+    z-index: 1;
+    transition: 0.5s;
+    
+}
+
+.container .card .box .content p{
+    font-size: 1em;
+    font-weight: 300;
+    color: #777;
+    z-index: 1;
+    transition: 0.5s;
+}
+
+.container .card .box .content button{
+    color: rgb(255,123,0);
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  justify-content: center;
+  background-color: rgb(255,123,0);
+  height: 42px;
+  width: 140px;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+.container .card:hover .box .content button{
+    color: rgb(255,123,0);
+    background-color: white;
+    
+}
+.container .card:hover .box .content h3,
+.container .card:hover .box .content p{
+    color:#fff;
+}
+

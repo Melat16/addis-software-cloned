@@ -1,0 +1,28 @@
+.about{
+    background-color: white;
+}
+.rightcontent p {
+    padding: 0;
+    margin-top: 0%;
+    margin-bottom: 2%;
+    font-size: 16px;
+    font-weight: lighter;
+    color: rgb(105,105,105);
+    line-height: 1.6;
+  }
+  .rightcontent{
+    float: right;
+    margin-right: 8%;
+  }
+
+  .rightcontent p h4 {
+    margin-bottom: 3px;
+    font-size: 28px;
+    margin-top: 10%;
+    font-weight: lighter;
+    color: rgb(105,105,105);
+  }
+
+  .leftcontent{
+      float:left;
+  }

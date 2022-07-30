@@ -1,0 +1,34 @@
+.navbar{
+    width:100%;
+    height:100px;
+    display:flex;
+    flex-direction:row;
+    background-color: #F5F5F5;
+}
+
+.navbar .leftSide{
+    flex: 35%;
+    height:100%;
+    display:flex;
+    align-items:center;
+    padding-left: 150px;
+}
+
+.navbar .rightSide{
+    flex: 65%;
+    height:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.navbar a{
+    color:grey;
+    text-decoration: none;
+    margin: 30px;
+    font-size:larger;
+}
+
+.navbar a:hover{
+    color:rgb(255,123,0);
+}
+

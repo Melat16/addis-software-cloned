@@ -1,0 +1,137 @@
+.home {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align:justify;
+ 
+
+  
+}
+
+.headerContainer {
+  width: auto;
+  margin-top: 7%;
+  margin-left: 13%;
+  float: left;
+}
+
+.headerContainer h1{
+  justify-content: center;
+  align-items: center;
+  font-size: 59px;
+  height: 150px;
+  font-weight: bold;
+  margin-bottom: 2%;
+  margin-top: 13%;
+  color: rgb(105,105,105);
+}
+.headerContainer h4{
+  justify-content: center;
+  align-items: center;
+  height: 90px;
+  margin-top: 5%;
+  margin-bottom:0;
+  font-size: 25px;
+  font-weight: 50;
+  color: rgb(255,123,0);
+}
+.headerContainer p {
+  padding: 0;
+  margin-top: 0%;
+  text-align:justify;
+  margin-bottom: 2%;
+  font-size: 20px;
+  word-spacing:6px;
+  font-weight: lighter;
+  color: grey;
+  text-align: justify;
+}
+
+.headerContainer button {
+  color: rgba(251, 150, 56, 0.984);;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  justify-content: center;
+  background-color: rgba(251, 150, 56, 0.984);;
+  height: 65px;
+  width: 215px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+.headerContainer button:hover{
+  background-color: rgb(105,105,105);
+}
+.maincontent{
+  margin-top: 3%;
+}
+.ourservices { 
+  float: right;
+  margin-top: 23%;
+  margin-bottom: 2%; 
+  margin-right: 6%;
+  word-spacing: 3px;
+  line-height: 20px;
+}
+.leftcontent{
+  float: left;
+  margin-left: 10%;
+}
+.rightcontent{
+  float:right;
+  margin-left: 7%;
+  margin-top: 0%;
+}
+.ourservices p{
+  color: rgb(105,105,105);
+  text-align:justify;
+  font-size: 18px;
+ 
+}
+.leftmaincontent{
+  float:left;
+  margin-top: 20%;
+  margin-left: 10%;
+  margin-bottom: 10%;
+  
+}
+.ourservices h1{
+  color: rgb(105,105,105);
+  margin-bottom: 8%;
+}
+.sections{
+  
+  margin-bottom: 3%;
+  margin-left: 15%;
+ 
+}
+.sections .CircularProgressbar{
+  max-height: 200px;
+  max-width: 200px;
+  margin-right: 18%;
+  margin-top: 10%;
+  margin-bottom: 8%;
+
+}
+.sections .animated-paragraph{
+  word-spacing: 2.2px;
+  color: rgb(105,105,105);
+  font-size: 34px;
+  font-weight: bolder;
+  margin-bottom: 6%;
+}
+
+.sections .marque_container h4{
+  font-size: 24px;
+  font-weight: lighter;
+  margin-right: 2%;
+
+}
+
+.sections .marque_container .img-fluid{
+  height: 80px;
+   width: 80px;
+   margin-right: 4%;
+}
+
